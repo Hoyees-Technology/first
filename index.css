@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+body{
+    margin: auto 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* HEADER CODES */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    background-color:#0E2A47;
+    box-shadow: rgba(255, 255, 255, 0.4) 0px 2px 4px, rgba(255, 255, 255, 0.3) 0px 7px 13px -3px, rgba(255, 255, 255, 0.2) 0px -3px 0px inset;
+}
+/* logo */
+.logo{
+    box-sizing: content-box;
+    padding-left: 30px;
+    width: 70px;
+}
+
+.logo>img{
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.middle{
+    padding: 20px;
+}
+
+.navlinks{
+    display: flex;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.navlinks>li{
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+.navlinks>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+.navlinks>li>a:hover{
+    padding: 10px;
+    background-color: #020a13;
+    border-radius: 5px;
+    border: 1px solid;
+
+
+}
+
+.right{
+    display: flex;
+    padding: 30px;
+}
+
+.right>a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.right>a:hover{
+    padding: 5px;
+    background-color: #020a13;
+    border-radius: 5px;
+    border: 1px solid;
+    font-size: 1.3rem;
+
+}
+
+/* FIRST SECTION OF THE HOME */
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    border-bottom: 1px solid black;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='700' preserveAspectRatio='none' viewBox='0 0 1440 700'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1090%26quot%3b)' fill='none'%3e%3crect width='1440' height='700' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M0%2c575.333C112.822%2c567.631%2c222.344%2c553.135%2c325.016%2c505.735C440.229%2c452.545%2c566.278%2c397.814%2c626.484%2c286.106C687.796%2c172.345%2c685.964%2c30.325%2c647.783%2c-93.137C612.2%2c-208.196%2c505.557%2c-278.765%2c424.303%2c-367.661C345.522%2c-453.851%2c285.046%2c-559.784%2c178.198%2c-606.887C64.085%2c-657.193%2c-74.613%2c-691.041%2c-187.096%2c-637.19C-298.159%2c-584.019%2c-313.88%2c-434.5%2c-387.717%2c-335.959C-454.57%2c-246.739%2c-567.421%2c-192.902%2c-599.916%2c-86.255C-634.385%2c26.871%2c-611.683%2c149.586%2c-569.3%2c259.991C-525.11%2c375.103%2c-462.704%2c492.4%2c-354.843%2c552.146C-249.01%2c610.768%2c-120.703%2c583.573%2c0%2c575.333' fill='%23091b2e'%3e%3c/path%3e%3cpath d='M1440 1166.004C1526.621 1166.259 1600.609 1110.033 1671.788 1060.6689999999999 1740.784 1012.8199999999999 1822.667 965.924 1845.151 885.0260000000001 1867.21 805.657 1801.409 731.168 1785.85 650.274 1771.287 574.557 1792.149 494.026 1756.77 425.517 1716.338 347.223 1660.115 262.893 1574.674 241.34199999999998 1489.411 219.83499999999998 1407.3220000000001 280.122 1327.62 317.27 1258.792 349.35 1194.696 387.029 1142.921 442.579 1089.6309999999999 499.754 1038.258 563.28 1026.334 640.524 1014.357 718.108 1046.237 793.5360000000001 1077.636 865.486 1109.504 938.512 1147.759 1008.442 1209.089 1059.305 1275.704 1114.551 1353.4569999999999 1165.749 1440 1166.004' fill='%23133960'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1090'%3e%3crect width='1440' height='700' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    
+}
+
+.section1a{
+    float: left;
+    padding-right: 350px;
+    
+}
+
+
+.section1a>h5{
+    color: blue;
+    font-size: 1.5rem;
+}
+.section1a>h3{
+    color: white;
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+.button{
+    border: 1px solid whitesmoke;
+    background-color: #020a13;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    
+}
+
+.button>a{
+    color: white;
+    text-decoration: none;
+}
+
+.section1b{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 300px;
+    float: right;
+}
+
+.section1b>img{
+    position: relative;
+    height: 400px;
+    /* padding-right: 100px; */
+
+}
+
+/* SECTION 2: ABOUT US */
+.section2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.section2a{
+    float: left;
+    padding-left: 50px;
+}
+.section2a>h1{
+    font-size: 3rem;
+    color: #0E2A47;
+}
+.section2a>h4{
+    font-size: 1.2rem;
+    justify-content: left;
+    line-height: 25px;
+}
+.section2b{
+    float: right;
+    padding-right: 50px;
+}
+
+.section2b>img{
+    position: relative;
+    height: 400px;
+    width: 500px;
+}
+
+
+/* THE SERVICE SECTION */
+.section3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    background-color: #0E2A47;
+}
+
+.service{
+    text-align: center;
+}
+
+.service img{
+    width: 300px; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 8px;
+    margin-top: 100px;
+}
+
+.service-description{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-size: 2rem;
+    color: white;
+}
+
+/* SECTION 4: CONTACT  */
+.contact-form {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-color: #0E2A47; */
+}
+
+form{
+    border: 2px solid #ddd;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 5px;
+    background-color: #0E2A47;
+}
+.formgroup{
+    padding: 20px;
+}
+
+.textarea{
+    font-size: 1.5rem;
+    color: white;
+    font-style: italic;
+}
+
+.inputbox{
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #ddd;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none
+}
+
+.sendmessage{
+    padding: 10px;
+    background-color: #020a13;
+    color: white;
+    border-radius: 15px;
+}
+
+.sendmessage:hover{
+    padding: 10px;
+    background-color: #071d35;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* footer section */
+footer{
+    width: 100vw;
+    height: 50px;
+    background-color: #0E2A47;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footertext{
+    color: white;
+    font-size: 1.5rem;
+}
